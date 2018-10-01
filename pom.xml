@@ -11,9 +11,10 @@
 		<module>user-service-consumer</module>
 		<module>user-service-provider</module>
 		<module>test</module>
-		<module>springcloud-eureka-client-demo</module>
+		<module>springcloud-eureka-server-demo</module>
 		<module>spring-cloud-config-server-demo</module>
 		<module>springcloudzuuldemo</module>
+		<module>spring-cloud-ribbon-demo</module>
 	</modules>
     <packaging>pom</packaging>
 

@@ -1,5 +1,6 @@
 package com.zrb.controller;
 
+import com.zrb.bean.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class RibbonController {
     @GetMapping(value = "/ribbon")
     public Object ribbonTest(){
-        return "ribbon路由完成";
+        User user = new User();
+        user.setAge(12);
+        user.setName("zhangsan");
+        return user;
     }
 }
